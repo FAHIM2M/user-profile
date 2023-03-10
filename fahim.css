@@ -1,0 +1,202 @@
+.profile {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.profileImage {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.profileImage img {
+  width: 150px;
+  border-radius: 100%;
+}
+
+.setting {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid;
+  border-left: 1px solid;
+}
+
+.setting div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.setting div div input {
+  padding: 8px 8px;
+  outline: none;
+}
+.setting div input {
+  padding: 8px 8px;
+  outline: none;
+}
+.experience {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.experience div div {
+  margin-top: 10px;
+}
+
+.experience div div input {
+  padding: 8px;
+}
+
+.experienceButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+/*  */
+.name {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  width: fit-content;
+  display: flex;
+  align-self: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  background: #7e528f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.buttonForExperience {
+  width: fit-content;
+  display: flex;
+  align-self: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+
+.experienceForm div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Table */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+  font-size: 1em;
+  font-family: sans-serif;
+  border: 1px solid #ccc;
+}
+
+table th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+.skillProfile {
+  display: flex;
+  flex-direction: row;
+}
+
+.nameAndTitles {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+
+.nameAndTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.editProfilesButton {
+  width: fit-content;
+  height: fit-content;
+}
+
+.skills {
+  padding: 5px 0;
+}
+
+.aboutDetailsLinks {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #322a2a;
+}
+
+.aboutDetailsLink {
+  margin: 0 8px;
+}
+
+.aboutTable {
+  display: flex;
+  flex-direction: column;
+}
+.aboutTable div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.td {
+  padding: 10px;
+  border: none;
+}
+.tabils {
+  /* border-collapse: collapse; */
+  border: none;
+}
+
+.aboutline1 {
+  border-bottom: 3px solid aqua;
+}
+.aboutline2 {
+  color: aqua;
+}
+
+.editProfilesButton {
+  text-decoration: none;
+  background: rgb(228, 223, 223);
+  border: none;
+  padding: 5px 7px;
+  border-radius: 20px;
+}
